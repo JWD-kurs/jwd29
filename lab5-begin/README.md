@@ -59,7 +59,7 @@ Sada možemo dodati anotacije koje nalažu JPA da mapira vezu između objekata.
 
 Adrese korisnika ćemo mapirati na pod-resurs resursa User, tj. na URL `/api/users/{userid}/addresses`
 
-* Izmenizi `RequestMapping` klase `AddressController`
+* Izmeniti `RequestMapping` klase `AddressController`
 * Dodati u `AddressRepository` i `AddressService` metodu `findByUser(User user)`
 * Izmeniti `RequestMapping` i tela njenih metoda, tako da se učitavaju adrese samo za određenog korisnika
 
