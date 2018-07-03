@@ -174,8 +174,8 @@ app.controller("standoviCtrl", function($scope, $http){
 	}
 	
 	$scope.pretraga = function(){
-		getStandovi();
 		$scope.pageNum = 0;
+		getStandovi();
 	}
 	
 	$scope.go = function(direction){
